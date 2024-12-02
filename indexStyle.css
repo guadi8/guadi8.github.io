@@ -1,0 +1,183 @@
+body::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+	background: linear-gradient(to right, #ffffff, #f8f8f8);
+	scroll-behavior: smooth;
+	/* 这行确保了即使没有JavaScript，滚动也会相对平滑 */
+}
+
+
+@media (max-width: 600px) {
+	body {
+		font-size: 12px;
+	}
+}
+
+header {
+	background: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
+
+
+header h1 {
+	margin: 0;
+	font-size: 4vw;
+	/* 在较大的屏幕上减小，较小的屏幕上增大 */
+}
+
+p {
+	font-size: max(1rem, 1vw);
+	/* 确保字体不会太小 */
+}
+
+nav {
+	background-image: url(lsp1.jpg);
+	background-size: contain;
+	/* 让背景图像等比例缩放以填满整个元素 */
+	background-repeat: no-repeat;
+	/* 不重复背景图像 */
+	background-attachment: fixed;
+	/* 将背景图像固定在视口中 */
+	background-position: 5% 5%;
+	/* 设置背景图像距离左侧的位置为10%，垂直居中 */
+
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+nav a {
+	color: #fff;
+	margin: 0 15px;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	/* 移除列表项目的默认样式 */
+	text-align: right;
+	/* 让菜单项在较小的屏幕上居中 */
+}
+
+nav ul li {
+	display: inline-block;
+	/* 在大屏幕上水平显示 */
+	margin: 0 10px;
+	/* 调整间距 */
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+section {
+	max-width: 800px;
+	/* 或你希望的最大宽度 */
+	margin: auto;
+	/* 使内容居中显示 */
+	padding: 20px;
+	/* margin-bottom: 100px; */
+	/* 添加这一行 */
+}
+
+footer {
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.portfolio-item {
+	text-align: center;
+	border: 1px solid #ddd;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #ffffff;
+	border-radius: 25px;
+	/* 添加圆角 */
+}
+
+/* .contact-card {
+	column-count: 3;
+	设置列数 
+	column-gap: 20px;
+	 列间距 
+} */
+
+.portfolio-card {
+	border: 1px solid #ddd;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #ffffff;
+	border-radius: 25px;
+	/* 添加圆角 */
+}
+
+.portfolio-item:hover {
+	transform: scale(1.03);
+	/* 鼠标悬停时放大 1.1 倍 */
+	transition: transform 0.3s ease;
+	/* 添加过渡效果 */
+}
+
+.portfolio-item img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	/* 确保图片不会显示任何额外的空间 */
+	border-radius: 20px;
+	/* 使图片圆角与卡片圆角一致 */
+}
+
+@media (max-width: 600px) {
+	nav ul li {
+		display: block;
+		/* 在小屏幕上垂直显示 */
+		margin: 5px 0;
+		/* 调整垂直间距 */
+	}
+}
+
+a {
+	color: #007bff;
+	/* 蓝色 */
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0056b3;
+	/* 鼠标悬停时的颜色 */
+}
+
+a:hover,
+button:hover {
+	opacity: 0.7;
+	/* 或其他视觉效果，如改变背景色等 */
+}
+
+.container {
+	display: flex;
+	font-size: 0;
+	justify-content: space-between;
+	/* 水平排列，两端对齐 */
+	align-items: center;
+	/* 垂直居中对齐 */
+}
