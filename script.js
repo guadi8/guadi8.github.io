@@ -59,8 +59,8 @@ function getFallbackResources() {
     return [
         {
             id: 1,
-            title: "Photoshop 2026 专业版",
-            description: "Adobe Photoshop 2026 最新版本，功能全面升级，支持AI智能修图，包含全套插件和笔刷。",
+            title: "吃瓜汇总地址",
+            description: "当你看到这个卡片的时候，说明瓜源出了问题，点击本卡片前往汇总地址查找瓜源",
             image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
             downloadUrl: "https://example.com/download/photoshop2026"
         }
