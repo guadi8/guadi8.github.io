@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>资源下载中心 - 优质资源免费下载</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 公告弹窗 -->
+    <div class="modal-overlay" id="announcementModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-exclamation-circle"></i> 网站使用声明</h2>
+                <button class="close-modal" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>欢迎访问资源下载中心！请您仔细阅读以下声明：</p>
+                <p>1. 本网站提供的资源仅供个人学习与研究使用，请勿用于商业用途。</p>
+                <p>2. 下载资源后请在24小时内删除，如喜欢该资源，请支持正版。</p>
+                <p>3. 本网站不存储任何资源文件，所有下载链接均来自互联网公开资源。</p>
+                <p>4. 使用本网站资源即表示您同意遵守相关法律法规，并对自己行为负责。</p>
+                <p>5. 本网站保留随时修改此声明的权利，恕不另行通知。</p>
+            </div>
+            <div class="modal-footer">
+                <button class="agree-btn" id="agreeBtn">我已阅读并同意</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 顶部固定广告位 -->
+    <header class="header-ad">
+        <div class="ad-content">
+            <div class="ad-icon">
+                <i class="fas fa-gift"></i>
+            </div>
+            <div class="ad-text">
+                限时福利：<span class="ad-highlight">新用户注册即送VIP会员</span>，享无限下载特权！
+            </div>
+        </div>
+        <button class="ad-close" id="closeAd">
+            <i class="fas fa-times"></i>
+        </button>
+    </header>
+    
+    <!-- 主要内容区域 -->
+    <main class="container">
+        <div class="page-title">
+            <h1>资源下载中心</h1>
+            <p>高质量资源免费下载，持续更新中</p>
+        </div>
+        
+        <div class="resources-grid" id="resourcesContainer">
+            <!-- 资源卡片将通过JavaScript动态生成 -->
+        </div>
+        
+        <div class="loading" id="loading">
+            <i class="fas fa-spinner fa-spin"></i> 正在加载资源...
+        </div>
+        
+        <div class="error-message" id="errorMessage" style="display: none;">
+            <i class="fas fa-exclamation-triangle"></i> 资源加载失败，请刷新页面重试
+        </div>
+    </main>
+    
+    <!-- 底部版权声明 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">资源下载中心</div>
+            <div class="copyright">Copyright &copy; 2023-2026 资源下载中心 版权所有</div>
+            <div class="copyright">本网站所有资源均来自互联网公开分享，仅供学习研究使用</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
