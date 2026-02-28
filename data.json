@@ -1,74 +1,58 @@
 [
   {
     "id": 1,
-    "title": "Photoshop 2026 专业版",
+    "title": "前夫哥出轨还让我买套",
     "description": "Adobe Photoshop 2026 最新版本，功能全面升级，支持AI智能修图，包含全套插件和笔刷。适用于专业设计师和摄影爱好者。",
     "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-    "downloadUrl": "https://example.com/download/photoshop2026",
-    "fileSize": "2.8 GB",
-    "fileType": "设计软件"
+    "downloadUrl": "https://example.com/download/photoshop2026"
   },
   {
     "id": 2,
     "title": "Office 2026 办公套件",
     "description": "Microsoft Office 2026 完整版，包含Word、Excel、PowerPoint、Outlook等所有组件，永久激活，支持离线使用。",
     "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-    "downloadUrl": "https://example.com/download/office2026",
-    "fileSize": "4.2 GB",
-    "fileType": "办公软件"
+    "downloadUrl": "https://example.com/download/office2026"
   },
   {
     "id": 3,
     "title": "Premiere Pro 视频编辑",
     "description": "Adobe Premiere Pro 2026专业视频编辑软件，支持4K/8K视频剪辑，内置丰富转场、特效和音频处理工具。",
     "image": "https://images.unsplash.com/photo-1536240478700-b869070f9279?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-    "downloadUrl": "https://example.com/download/premiere2026",
-    "fileSize": "3.5 GB",
-    "fileType": "视频编辑"
+    "downloadUrl": "https://example.com/download/premiere2026"
   },
   {
     "id": 4,
     "title": "Windows 11 专业版",
     "description": "Windows 11 专业版最新版本，已激活，包含所有更新补丁，系统纯净无捆绑软件，安全稳定。",
     "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-    "downloadUrl": "https://example.com/download/win11pro",
-    "fileSize": "5.7 GB",
-    "fileType": "操作系统"
+    "downloadUrl": "https://example.com/download/win11pro"
   },
   {
     "id": 5,
     "title": "VS Code 编程工具",
     "description": "Visual Studio Code 最新版本，集成Python、Java、JavaScript、C++等开发环境，包含常用插件和扩展。",
     "image": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-    "downloadUrl": "https://example.com/download/vscode",
-    "fileSize": "120 MB",
-    "fileType": "开发工具"
+    "downloadUrl": "https://example.com/download/vscode"
   },
   {
     "id": 6,
     "title": "AI绘图工具包",
     "description": "包含Stable Diffusion、Midjourney等AI绘图工具完整资源包，附带详细使用教程和模型库，适合AI绘画初学者。",
     "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-    "downloadUrl": "https://example.com/download/ai-drawing",
-    "fileSize": "8.3 GB",
-    "fileType": "AI工具"
+    "downloadUrl": "https://example.com/download/ai-drawing"
   },
   {
     "id": 7,
     "title": "AutoCAD 2026 建筑设计",
     "description": "AutoCAD 2026专业建筑设计软件，支持2D/3D设计，包含建筑、机械、电气等专业工具包。",
     "image": "https://images.unsplash.com/photo-1616469832301-8e0c6e5d2c3a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "downloadUrl": "https://example.com/download/autocad2026",
-    "fileSize": "6.2 GB",
-    "fileType": "CAD设计"
+    "downloadUrl": "https://example.com/download/autocad2026"
   },
   {
     "id": 8,
     "title": "Figma UI设计工具",
     "description": "Figma专业UI设计工具，支持团队协作，包含丰富的设计组件和插件库，适合产品经理和UI设计师。",
     "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    "downloadUrl": "https://example.com/download/figma",
-    "fileSize": "850 MB",
-    "fileType": "UI设计"
+    "downloadUrl": "https://example.com/download/figma"
   }
 ]
