@@ -62,54 +62,7 @@ function getFallbackResources() {
             title: "Photoshop 2026 专业版",
             description: "Adobe Photoshop 2026 最新版本，功能全面升级，支持AI智能修图，包含全套插件和笔刷。",
             image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            downloadUrl: "https://example.com/download/photoshop2026",
-            fileSize: "2.8 GB",
-            fileType: "设计软件"
-        },
-        {
-            id: 2,
-            title: "Office 2026 办公套件",
-            description: "Microsoft Office 2026 完整版，包含Word、Excel、PowerPoint等所有组件，永久激活。",
-            image: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-4.0.3&auto=format&fit=crop&w-800&q=80",
-            downloadUrl: "https://example.com/download/office2026",
-            fileSize: "4.2 GB",
-            fileType: "办公软件"
-        },
-        {
-            id: 3,
-            title: "Premiere Pro 视频编辑",
-            description: "Adobe Premiere Pro 2026专业视频编辑软件，支持4K/8K视频剪辑，内置丰富转场和特效。",
-            image: "https://images.unsplash.com/photo-1536240478700-b869070f9279?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            downloadUrl: "https://example.com/download/premiere2026",
-            fileSize: "3.5 GB",
-            fileType: "视频编辑"
-        },
-        {
-            id: 4,
-            title: "Windows 11 专业版",
-            description: "Windows 11 专业版最新版本，已激活，包含所有更新补丁，系统纯净无捆绑软件。",
-            image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            downloadUrl: "https://example.com/download/win11pro",
-            fileSize: "5.7 GB",
-            fileType: "操作系统"
-        },
-        {
-            id: 5,
-            title: "VS Code 编程工具",
-            description: "Visual Studio Code 最新版本，集成Python、Java、JavaScript等开发环境，含常用插件。",
-            image: "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            downloadUrl: "https://example.com/download/vscode",
-            fileSize: "120 MB",
-            fileType: "开发工具"
-        },
-        {
-            id: 6,
-            title: "AI绘图工具包",
-            description: "包含Stable Diffusion、Midjourney等AI绘图工具完整资源包，附带详细使用教程。",
-            image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            downloadUrl: "https://example.com/download/ai-drawing",
-            fileSize: "8.3 GB",
-            fileType: "AI工具"
+            downloadUrl: "https://example.com/download/photoshop2026"
         }
     ];
 }
